@@ -3,7 +3,10 @@ from time import time
 from itertools import chain
 from random import seed, choice, sample
 
+from flask import Flask
+app = Flask(__name__)
 
+@app.route('/')
 def mkpasswd (length=int(input("how many  chars in the password?")),digits=int(input("how many numbers in the password?")), upper=int(input("how many upper case")), lower=int(input("how many lower case")), spchars=int(input("how many special characters"))):
     """Create a random password with
 specific length and characters based on size
