@@ -68,7 +68,7 @@ def my_form_post():
     msg.body = "Hello thanks" + (' your password is  ') + dapass
     mail.send(msg)
     # opens the database file and saves the password email and employee id (as stid)
-    with open('/home/zryder/mysite/static/database.txt','a') as fo:
+    with open('*/yourappdirectory*','a') as fo:
         fo.write(str(request.form['email']) + (' ') + str(request.form['stid']) + (' ') + dapass)
 
     #prints the output from the variable above on the next webpage
