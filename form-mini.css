@@ -12,13 +12,12 @@ html{
 }
 
 .form-mini-paragraph {
-	float: right;
 	margin-right: 110px;
 	width: 500px:
 	background: lightblue;
-	text-align: left;
+	text-align: center;                                                                                                                               ;
 	font-size: 14px;
-	font-family: Calibri, sans-serif;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
 }
 
 
