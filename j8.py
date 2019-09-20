@@ -17,6 +17,7 @@ MAIL_USERNAME = '*Your email*'
 MAIL_PASSWORD = '*Your passwowrd*'
 
 
+
 app = Flask(__name__)
 app.config.from_object(__name__)
 
